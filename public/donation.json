@@ -1,0 +1,134 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.ibb.co/PrspHS3/Rectangle-4284.png",
+      "category": "Health",
+      "title": "Clean water for children",
+      "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price": 290,
+      "category_bg": "#0052FF",
+      "card_bg": "#0052FF26",
+      "text_color": "#0052FF"
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co/hdgmssy/Rectangle-4284-1.png",
+      "category": "Education",
+      "title": "Good education",
+      "description": "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity. The enjoyment of the highest attainable standard of health is one of the fundamental rights of every human being without distinction of race, religion, political belief, economic or social condition.",
+      "price": 280,
+      "category_bg": "#FF444A",
+      "card_bg": "#FF444A26",
+      "text_color": "#FF444A"
+    },
+    {
+      "id": 3,
+      "img": "https://i.ibb.co/fdppmSP/Rectangle-4284-2.png",
+      "category": "Clothing",
+      "title": "Used Clothing Drive",
+      "description": "Clothing (also known as clothes, garments, dress, apparel, or attire) is any item worn on the body. Typically, clothing is made of fabrics or textiles, but over time it has included garments made from animal skin and other thin sheets of materials and natural products found in the environment, put together.",
+      "price": 270,
+      "category_bg": "#79C23F",
+      "card_bg": "#79C23F26",
+      "text_color": "#79C23F"
+    },
+    {
+      "id": 4,
+      "img": "https://i.ibb.co/y8mhXQ6/Rectangle-4284-3.png",
+      "category": "Food",
+      "title": "Better Food for Everyone",
+      "description": "Food is one of the basic necessities of life. Food contains nutrients—substances essential for the growth, repair, and maintenance of body tissues and for the regulation of vital processes. Nutrients provide the energy our bodies need to function. The energy in food is measured in units called calories.",
+      "price": 275,
+      "category_bg": "#F87147",
+      "card_bg": "#F8714726",
+      "text_color": "#F87147"
+    },
+    {
+      "id": 5,
+      "img": "https://i.ibb.co/y8mhXQ6/Rectangle-4284-3.png",
+      "category": "Food",
+      "title": "Better Food for Everyone",
+      "description": "Food is one of the basic necessities of life. Food contains nutrients—substances essential for the growth, repair, and maintenance of body tissues and for the regulation of vital processes. Nutrients provide the energy our bodies need to function. The energy in food is measured in units called calories.",
+      "price": 275,
+      "category_bg": "#F87147",
+      "card_bg": "#F8714726",
+      "text_color": "#F87147"
+    },
+    {
+      "id": 6,
+      "img": "https://i.ibb.co/fdppmSP/Rectangle-4284-2.png",
+      "category": "Clothing",
+      "title": "Used Clothing Drive",
+      "description": "Clothing (also known as clothes, garments, dress, apparel, or attire) is any item worn on the body. Typically, clothing is made of fabrics or textiles, but over time it has included garments made from animal skin and other thin sheets of materials and natural products found in the environment, put together.",
+      "price": 270,
+      "category_bg": "#79C23F",
+      "card_bg": "#79C23F26",
+      "text_color": "#79C23F"
+    },
+    {
+      "id": 7,
+      "img": "https://i.ibb.co/hdgmssy/Rectangle-4284-1.png",
+      "category": "Education",
+      "title": "Good education",
+      "description": "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity. The enjoyment of the highest attainable standard of health is one of the fundamental rights of every human being without distinction of race, religion, political belief, economic or social condition.",
+      "price": 280,
+      "category_bg": "#FF444A",
+      "card_bg": "#FF444A26",
+      "text_color": "#FF444A"
+    },
+    {
+      "id": 8,
+      "img": "https://i.ibb.co/PrspHS3/Rectangle-4284.png",
+      "category": "Health",
+      "title": "Clean water for children",
+      "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price": 290,
+      "category_bg": "#0052FF",
+      "card_bg": "#0052FF26",
+      "text_color": "#0052FF"
+    },
+    {
+      "id": 9,
+      "img": "https://i.ibb.co/PrspHS3/Rectangle-4284.png",
+      "category": "Health",
+      "title": "Clean water for children",
+      "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price": 290,
+      "category_bg": "#0052FF",
+      "card_bg": "#0052FF26",
+      "text_color": "#0052FF"
+    },
+    {
+      "id": 10,
+      "img": "https://i.ibb.co/hdgmssy/Rectangle-4284-1.png",
+      "category": "Education",
+      "title": "Good education",
+      "description": "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity. The enjoyment of the highest attainable standard of health is one of the fundamental rights of every human being without distinction of race, religion, political belief, economic or social condition.",
+      "price": 280,
+      "category_bg": "#FF444A",
+      "card_bg": "#FF444A26",
+      "text_color": "#FF444A"
+    },
+    {
+      "id": 11,
+      "img": "https://i.ibb.co/fdppmSP/Rectangle-4284-2.png",
+      "category": "Clothing",
+      "title": "Used Clothing Drive",
+      "description": "Clothing (also known as clothes, garments, dress, apparel, or attire) is any item worn on the body. Typically, clothing is made of fabrics or textiles, but over time it has included garments made from animal skin and other thin sheets of materials and natural products found in the environment, put together.",
+      "price": 270,
+      "category_bg": "#79C23F",
+      "card_bg": "#79C23F26",
+      "text_color": "#79C23F"
+    },
+    {
+      "id": 12,
+      "img": "https://i.ibb.co/y8mhXQ6/Rectangle-4284-3.png",
+      "category": "Food",
+      "title": "Better Food for Everyone",
+      "description": "Food is one of the basic necessities of life. Food contains nutrients—substances essential for the growth, repair, and maintenance of body tissues and for the regulation of vital processes. Nutrients provide the energy our bodies need to function. The energy in food is measured in units called calories.",
+      "price": 275,
+      "category_bg": "#F87147",
+      "card_bg": "#F8714726",
+      "text_color": "#F87147"
+    }
+  ]
