@@ -6,20 +6,22 @@ const CardDetails = () => {
     const cardDetails=useLoaderData();
     const {id}=useParams();
     const idInt=parseInt(id);
+    console.log(cardDetails,id)
     
-   const card=cardDetails?.find(card=>card.id === idInt);
+   const card=cardDetails?.find(card=>card.id == idInt);
    const {img,title,price,description,text_color}=card;
 
    const handleToast=()=>{
     setLocalStorage(idInt);
     Swal.fire(
         'Successful',
-        'You clicked the button!',
+        'Your donation successful',
         'success'
       )
    }
 
     return (
+       
         <div className="max-w-7xl mx-auto mt-[83px] mb-16 px-10 lg:px-0">
             <div >
                 <img className="w-full h-full rounded-lg" src={img} alt="" />

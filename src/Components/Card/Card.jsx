@@ -3,7 +3,10 @@ import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom';
 
 const Card = ({card}) => {
+  console.log(card)
     const {id,img,category,title,category_bg,card_bg,text_color}=card;
+
+    
     
   return (
     <div >
@@ -23,7 +26,8 @@ const Card = ({card}) => {
 }
 
 Card.propTypes = {
-    card:PropTypes.object,
+  card:PropTypes.array,
+    
 }
 
 export default Card
