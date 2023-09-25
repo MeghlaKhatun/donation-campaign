@@ -9,9 +9,9 @@ const Cards = () => {
     return (
         <div>
              <Banner></Banner>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto gap-6 mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto gap-6 mb-16 px-10 lg:px-0">
                 {
-                    cards.map(card =><Card key={card.id} card={card}></Card>)
+                    cards?.map(card =><Card key={card.id} card={card}></Card>)
                 }
             </div>
             

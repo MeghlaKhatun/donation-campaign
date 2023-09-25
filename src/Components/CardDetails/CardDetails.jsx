@@ -1,5 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import Swal from 'sweetalert2'
+import { setLocalStorage } from "../../Utility/LocalStorage";
 
 const CardDetails = () => {
     const cardDetails=useLoaderData();
@@ -7,9 +8,10 @@ const CardDetails = () => {
     const idInt=parseInt(id);
     
    const card=cardDetails?.find(card=>card.id === idInt);
-   const {img,title,price,description}=card;
+   const {img,title,price,description,text_color}=card;
 
    const handleToast=()=>{
+    setLocalStorage(idInt);
     Swal.fire(
         'Successful',
         'You clicked the button!',
@@ -18,17 +20,17 @@ const CardDetails = () => {
    }
 
     return (
-        <div className="max-w-7xl mx-auto mt-[83px] mb-16">
+        <div className="max-w-7xl mx-auto mt-[83px] mb-16 px-10 lg:px-0">
             <div >
-                <img className="w-full h-[60vh] rounded-lg" src={img} alt="" />
+                <img className="w-full h-full rounded-lg" src={img} alt="" />
 
-                    <div className="h-[15vh] bg-black opacity-30 mt-[-145px] rounded-b">
+                    <div className="h-[70px] md:h-[150px] lg:h-[200px] bg-black opacity-30 mt-[-70px] md:mt-[-150px] lg:mt-[-200px] rounded-lg">
                     
                     </div>
                     <div>
-                        <button onClick={handleToast} className="py-4 px-6 text-white bg-[#FF444A] text-xl font-semibold rounded absolute mt-[-100px] ml-[40px]">Donate ${price}</button>
+                        <button onClick={handleToast} style={{background:text_color}} className="py-1 md:py-3 px-4 md:px-6 text-white text-[16px] md:text-xl font-medium md:font-semibold rounded absolute mt-[-50px] md:mt-[-100px] lg:mt-[-130px] ml-[40px]">Donate ${price}</button>
                     </div>
-                    <h2 className="text-4xl mt-[56px] mb-6 text-[#0B0B0B] font-bold">{title}</h2>
+                    <h2 className="text-2xl md:text-3xl lg:text-4xl mt-8 md:mt-[56px] mb-6 text-[#0B0B0B] font-bold">{title}</h2>
                     <h3 className="text-[16px] text-[#0B0B0BB2] font-normal">{description}</h3>
 
                 
