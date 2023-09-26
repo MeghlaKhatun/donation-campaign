@@ -5,9 +5,9 @@ const Donate = ({done}) => {
     const {price,title,img,category,category_bg,text_color,card_bg}=done;
     
   return (
-        <div style={{background:card_bg}} className='flex shadow-xl h-[180px] md:h-[220px] rounded-lg'>
+        <div style={{background:card_bg}} className='flex flex-col md:flex-row  shadow-xl  md:h-[220px] rounded-lg'>
             <div className='flex-1'>
-            <img className='h-full rounded-lg' src={img} />
+            <img className='h-full w-full rounded-lg' src={img} />
             </div>
 
             <div className='flex-1'>

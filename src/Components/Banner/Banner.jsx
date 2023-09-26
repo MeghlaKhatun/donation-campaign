@@ -20,13 +20,13 @@ const Banner = ({handleSearch}) => {
             <form onSubmit={handleSearch}>
             <div className="mt-10">
 
-            <input className="text-black border outline-none rounded-lg py-3 md:py-4 pl-4 pr-[100px] md:pr-[200px] lg:pr-[350px]" type="text" placeholder="Search here...." name="text" id="" />    
+            <input className="text-black border outline-none rounded-lg py-3 md:py-4 pl-4 pr-[40px] md:pr-[200px] lg:pr-[350px]" type="text" placeholder="Search here...." name="text" id="" />    
 
             </div>
 
-            <div className="absolute mt-[-50px] md:mt-[-57px] ml-[270px] md:ml-[370px] lg:ml-[570px]">
+            <div className="md:absolute mt-6 md:mt-[-57px]  md:ml-[370px] lg:ml-[570px]">
 
-               <input className="bg-[#FF444A] text-[16px] font-semibold py-3 md:py-4 px-7 text-white rounded-r-lg" type="submit" value="Search" />
+               <input className="bg-[#FF444A] text-[16px] font-semibold py-3 md:py-4 px-7 text-white rounded-lg " type="submit" value="Search" />
                 
                 {/* <button className="bg-[#FF444A] text-[16px] font-semibold py-3 md:py-4 px-7 text-white rounded-lg">Search</button> */}
             </div>

@@ -6,7 +6,7 @@ const CardDetails = () => {
     const cardDetails=useLoaderData();
     const {id}=useParams();
     const idInt=parseInt(id);
-    console.log(cardDetails,id)
+    // console.log(cardDetails,id)
     
    const card=cardDetails?.find(card=>card.id == idInt);
    const {img,title,price,description,text_color}=card;

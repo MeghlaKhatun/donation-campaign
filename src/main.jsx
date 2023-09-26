@@ -11,26 +11,28 @@ import Cards from './Components/Cards/Cards';
 import CardDetails from './Components/CardDetails/CardDetails';
 import Donation from './Components/Donation/Donation';
 import Statistics from './Components/Statisticts/Statistics';
+import ErrorPage from './Components/ErronrPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
+    errorElement:<ErrorPage></ErrorPage>,
     children:[
       {
         path:"/",
         element:<Cards></Cards>,
-        loader:()=>fetch('/donation.json')
+        loader:()=>fetch('/donate.json')
       },
       {
         path:'/card/:id',
         element:<CardDetails></CardDetails>,
-        loader:()=>fetch('/donation.json')
+        loader:()=>fetch('/donate.json')
       },
       {
         path:"/donation",
         element:<Donation></Donation>,
-        loader:()=>fetch('/donation.json')
+        loader:()=>fetch('/donate.json')
       },
       {
         path:"/statistics",
