@@ -14,7 +14,7 @@ const Statistics = () => {
 
     const data = [
         { label: 'My Donation', value: myDonateCard, color: '#00C49F' },
-        { label: 'Total Donation', value: 12 - myDonateCard, color: 'red' },
+        { label: 'Total Donation', value: 12 - myDonateCard, color: '#FF444A' },
     ];
 
     const style = {

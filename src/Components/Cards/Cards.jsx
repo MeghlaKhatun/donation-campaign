@@ -10,13 +10,12 @@ const Cards = () => {
     const [filteredCards, setFilteredCards] = useState([]);
   
 
-console.log("filter",filteredCards)
     const handleSearch = e=>{
         e.preventDefault();
-        console.log(e.target.text.value)
+        // console.log(e.target.text.value)
         const searchKey = e.target.text.value.trim().toLowerCase();
         const filtered = cards.filter(card => card.category.toLowerCase().indexOf(searchKey) !== -1);
-        console.log(filtered)
+        // console.log(filtered)
         setFilteredCards(filtered);
     }
     useEffect(() => {
